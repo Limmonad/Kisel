@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+/* Меню на сайте */
+.menu {
+  background-color: #a091f2;
+  border: 0.00001px black solid;
+}
+.container {
+  min-width: 1227px;
+  margin: 0 auto;
+}
+.menu_inner {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 0;
+}
+
+.nav {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.nav li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  margin-right: 25px;
+  font-family: sans-serif;
+  padding: 5px 10px;
+}
+
+.nav li a:hover {
+  border-radius: 10px;
+  color: whitesmoke;
+  background-color: orange;
+}
+/* -------------- 
+-----------------------------------------------
+*/
+/* Тело сайта */
+.info {
+  background-color: #a091f2;
+}
+.info_container {
+  min-width: 1227px;
+  margin: 0 auto;
+}
+.info_inner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 300px;
+}
+.item {
+  text-align: center;
+}
+.number {
+  font-size: 70px;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-bottom: 15px;
+  color: orange;
+}
+.text {
+  font-family: "Times New Roman", Times, sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  color: black;
+  text-transform: uppercase;
+}
+/* Контент к сайту */
+.content {
+  background-color: #a091f2;
+  height: 300px;
+}
+.content-container {
+  width: 1170px;
+  margin: 0 auto;
+}
+.info_content {
+  display: flex;
+  align-items: center;
+}
+.logo_content {
+  max-width: 150px;
+  margin-right: 40px;
+}
+.text-content h2 {
+  font-weight: 800;
+}
+.text-content p {
+  padding-top: 10px;
+  line-height: 25px;
+}
+
+.text-content {
+  margin-right: 40px;
+  max-width: 400px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.link-content div {
+  width: 50px;
+  height: 50px;
+  border: 3px green solid;
+  border-radius: 50%;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: green;
+  margin: 15px 0;
+  font-size: 25px;
+  transition: 1s;
+}
+.link-content div:hover {
+  cursor: pointer;
+  color: aliceblue;
+  background-color: green;
+}
